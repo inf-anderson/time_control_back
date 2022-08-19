@@ -1,0 +1,9 @@
+wheel
+Django
+django-environ
+djangorestframework
+djangorestframework-simplejwt
+mysqlclient
+autopep8
+uuid
+django-cors-headers
