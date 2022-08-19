@@ -4,7 +4,7 @@ import uuid
 
 
 class UserRole(models.Model):
-    id         = models.UUIDField(default=uuid.uuid4, unique=True, primary_key=True,  editable=False)
+    id         = models.CharField(default=str(uuid.uuid4()), max_length=255, unique=True, primary_key=True, editable=False)
     user       = models.ForeignKey(User, on_delete=models.CASCADE)
     role       = models.ForeignKey(Role, on_delete=models.CASCADE)
     state      = models.BooleanField(default=True)

@@ -4,7 +4,7 @@ import uuid
 
 
 class RolePermission(models.Model):
-    id         = models.UUIDField(default=uuid.uuid4, unique=True, primary_key=True,  editable=False)
+    id         = models.CharField(default=str(uuid.uuid4()), max_length=255, unique=True, primary_key=True,  editable=False)
     role       = models.ForeignKey(Role, on_delete=models.CASCADE)
     permission = models.ForeignKey(Permission, on_delete=models.CASCADE)
     state      = models.BooleanField(default=True)
@@ -17,4 +17,4 @@ class RolePermission(models.Model):
         verbose_name_plural = 'role_Permissions'
 
     def __str__(self):
-        return self.user.username + ' - ' + self.role.description
+        return self.permission.description + ' - ' + self.role.description

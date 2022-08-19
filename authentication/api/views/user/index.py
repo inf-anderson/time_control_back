@@ -44,15 +44,12 @@ class MyTokenObtainPairSerializer(TokenObtainPairSerializer):
         # Get user roles
         dataRole       = UserRole.objects.filter(user=user)
         roleSerializer = UserRoleReadOnlySerializer(dataRole, many=True)
-        # set user roles in the token
         for role in roleSerializer.data:
-            if role['role'].get('name') == 'admin':
-                roles.append(role['role'].get('name'))
-                dataPermission = RolePermission.objects.filter(role=1)
-                permissionSerializer = RolePermissionReadOnlySerializer(
-                    dataPermission, many=True)
-                for permission in permissionSerializer.data:
-                    permissions.append(permission['permission'].get('name'))
+            id = role['role']['id']
+            dataPermission = RolePermission.objects.filter(role_id=id)
+            permissionSerializer = RolePermissionReadOnlySerializer(dataPermission, many=True)
+            for permission in permissionSerializer.data:
+                permissions.append(permission['permission']['description'])
 
         # Add custom claims
         token['name'] = f'{user.first_name} {user.last_name}'
@@ -74,11 +71,10 @@ class ForgotPasswordAV(APIView):
             uidb64 = urlsafe_base64_encode(force_bytes(user.id))
             token = PasswordResetTokenGenerator().make_token(user)
             current_site = get_current_site(request)
-            relative_link = reverse(
-                'recuperar contraseña', kwargs={'uidb64': uidb64, 'token': token})
+            relative_link = reverse('password-reset-confirm', kwargs={'uidb64': uidb64, 'token': token})
             url = 'http://' + str(current_site) + str(relative_link)
-            send_email(request.data['email'], 'recuperar contraseña',
-                       'en este link podras restablecer tu contraseña: ' + url)
+            send_email('recuperar contraseña','en este link podras restablecer tu contraseña: ' + url, 
+                        request.data['email'],)
             return response({'message': 'Email sent'}, status=200)
         except Exception as e:
             return response({'error': str(e)}, status=500)

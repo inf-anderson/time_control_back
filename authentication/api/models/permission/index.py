@@ -3,7 +3,7 @@ import uuid
 
 
 class Permission(models.Model):
-    id          = models.UUIDField(default=uuid.uuid4, unique=True, primary_key=True,  editable=False)
+    id          = models.CharField(default=str(uuid.uuid4()), max_length=255, unique=True, primary_key=True, editable=False)
     description = models.TextField(blank=True)
     state       = models.BooleanField(default=True)
     created_at  = models.DateTimeField(auto_now_add=True)
