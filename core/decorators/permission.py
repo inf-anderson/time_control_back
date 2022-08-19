@@ -5,15 +5,21 @@ def permission(permission, role=None):
     def decorator(fun):
         def wrapper(*args, **kwargs):
             try:
+                authorized = False
                 token = decodeJWT(args[1])
                 is_admin = token['roles'].count('admin')
-                permissions = decodePermissionToken(
-                    token['permissions'])['permissions']
+                superAdmin = token['is_superuser']
+                permissions = decodePermissionToken(token['permissions'])['permissions']
 
-                if role and token['roles'].count(role) == 0 and is_admin == 0:
+                if role and token['roles'].count(role) == 0 and is_admin == 0 and superAdmin == 0:
                     return response({'error': 'You don\'t have the role to do this'}, status=401)
 
-                if (permissions.count(permission) == 0):
+                for p in permission:
+                    if p in permissions:
+                        authorized = True
+                        break
+
+                if (authorized == False and is_admin == 0 and superAdmin == 0):
                     return response({'error': 'You don\'t have the permission to do this'}, status=401)
 
                 return fun(*args, **kwargs)
