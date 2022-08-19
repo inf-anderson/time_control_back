@@ -1,0 +1,552 @@
+[
+  {
+    "model": "authentication.RolePermission",
+    "fields": {
+      "permission_id": "0d53fde85ddb47b2b3648a72a5f76df2",
+      "role_id": "ad8a1e9508d04e6cb4d858d55e8f5b29",
+      "state": 1,
+      "created_at": "2020-01-01T00:00:00Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "authentication.RolePermission",
+    "fields": {
+      "permission_id": "0e2df0a1ec924bf59227034a86089d9f",
+      "role_id": "ad8a1e9508d04e6cb4d858d55e8f5b29",
+      "state": 1,
+      "created_at": "2020-01-01T00:00:00Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "authentication.RolePermission",
+    "fields": {
+      "permission_id": "0eac133b5b37402ab97cf67ddef96f0c",
+      "role_id": "ad8a1e9508d04e6cb4d858d55e8f5b29",
+      "state": 1,
+      "created_at": "2020-01-01T00:00:00Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "authentication.RolePermission",
+    "fields": {
+      "permission_id": "14abcc31af064613b70a6e9d11abb169",
+      "role_id": "ad8a1e9508d04e6cb4d858d55e8f5b29",
+      "state": 1,
+      "created_at": "2020-01-01T00:00:00Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "authentication.RolePermission",
+    "fields": {
+      "permission_id": "2385beed8e0d403bab554598240f4ecc",
+      "role_id": "ad8a1e9508d04e6cb4d858d55e8f5b29",
+      "state": 1,
+      "created_at": "2020-01-01T00:00:00Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "authentication.RolePermission",
+    "fields": {
+      "permission_id": "29dff99ae99f4e4cbc3ed881740e8f67",
+      "role_id": "ad8a1e9508d04e6cb4d858d55e8f5b29",
+      "state": 1,
+      "created_at": "2020-01-01T00:00:00Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "authentication.RolePermission",
+    "fields": {
+      "permission_id": "366b745861f2440aacc263881c4a2dbc",
+      "role_id": "ad8a1e9508d04e6cb4d858d55e8f5b29",
+      "state": 1,
+      "created_at": "2020-01-01T00:00:00Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "authentication.RolePermission",
+    "fields": {
+      "permission_id": "43b2f8d318a04f8eabe2ed5247fad889",
+      "role_id": "ad8a1e9508d04e6cb4d858d55e8f5b29",
+      "state": 1,
+      "created_at": "2020-01-01T00:00:00Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "authentication.RolePermission",
+    "fields": {
+      "permission_id": "445e72fcb7eb480485804aa987dfb2ac",
+      "role_id": "ad8a1e9508d04e6cb4d858d55e8f5b29",
+      "state": 1,
+      "created_at": "2020-01-01T00:00:00Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "authentication.RolePermission",
+    "fields": {
+      "permission_id": "476ce83eadbc411c9f06525b5d92a858",
+      "role_id": "ad8a1e9508d04e6cb4d858d55e8f5b29",
+      "state": 1,
+      "created_at": "2020-01-01T00:00:00Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "authentication.RolePermission",
+    "fields": {
+      "permission_id": "4e36f0724ed04fed8a1946c4156653b3",
+      "role_id": "ad8a1e9508d04e6cb4d858d55e8f5b29",
+      "state": 1,
+      "created_at": "2020-01-01T00:00:00Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "authentication.RolePermission",
+    "fields": {
+      "permission_id": "50c94e9504994ed29c0c87b21d4a1f9a",
+      "role_id": "ad8a1e9508d04e6cb4d858d55e8f5b29",
+      "state": 1,
+      "created_at": "2020-01-01T00:00:00Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "authentication.RolePermission",
+    "fields": {
+      "permission_id": "50e707db0db0428c903bd698a057ae47",
+      "role_id": "ad8a1e9508d04e6cb4d858d55e8f5b29",
+      "state": 1,
+      "created_at": "2020-01-01T00:00:00Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "authentication.RolePermission",
+    "fields": {
+      "permission_id": "52c2b62b9b924a04b53bae04c39b8d9b",
+      "role_id": "ad8a1e9508d04e6cb4d858d55e8f5b29",
+      "state": 1,
+      "created_at": "2020-01-01T00:00:00Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "authentication.RolePermission",
+    "fields": {
+      "permission_id": "5f4573bd575140c5aa75ca8cba270a1f",
+      "role_id": "ad8a1e9508d04e6cb4d858d55e8f5b29",
+      "state": 1,
+      "created_at": "2020-01-01T00:00:00Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "authentication.RolePermission",
+    "fields": {
+      "permission_id": "66983ae67ac04c059e3724dfccc26bbb",
+      "role_id": "ad8a1e9508d04e6cb4d858d55e8f5b29",
+      "state": 1,
+      "created_at": "2020-01-01T00:00:00Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "authentication.RolePermission",
+    "fields": {
+      "permission_id": "68bcaea0b43e44859be928f03c363737",
+      "role_id": "ad8a1e9508d04e6cb4d858d55e8f5b29",
+      "state": 1,
+      "created_at": "2020-01-01T00:00:00Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "authentication.RolePermission",
+    "fields": {
+      "permission_id": "7727d5d27b4f48cc931853585bbf6db2",
+      "role_id": "ad8a1e9508d04e6cb4d858d55e8f5b29",
+      "state": 1,
+      "created_at": "2020-01-01T00:00:00Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "authentication.RolePermission",
+    "fields": {
+      "permission_id": "7a94c40a482043a2a016f3a1b1b3053a",
+      "role_id": "ad8a1e9508d04e6cb4d858d55e8f5b29",
+      "state": 1,
+      "created_at": "2020-01-01T00:00:00Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "authentication.RolePermission",
+    "fields": {
+      "permission_id": "7de47188717642d5ae033d03949614b8",
+      "role_id": "ad8a1e9508d04e6cb4d858d55e8f5b29",
+      "state": 1,
+      "created_at": "2020-01-01T00:00:00Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "authentication.RolePermission",
+    "fields": {
+      "permission_id": "80e82acfef024623b13257d3a33753a3",
+      "role_id": "ad8a1e9508d04e6cb4d858d55e8f5b29",
+      "state": 1,
+      "created_at": "2020-01-01T00:00:00Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "authentication.RolePermission",
+    "fields": {
+      "permission_id": "976c28c830304719bdb8dfbd2da7f5c6",
+      "role_id": "ad8a1e9508d04e6cb4d858d55e8f5b29",
+      "state": 1,
+      "created_at": "2020-01-01T00:00:00Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "authentication.RolePermission",
+    "fields": {
+      "permission_id": "bc981a1652b7445a943abdf14ad81a54",
+      "role_id": "ad8a1e9508d04e6cb4d858d55e8f5b29",
+      "state": 1,
+      "created_at": "2020-01-01T00:00:00Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "authentication.RolePermission",
+    "fields": {
+      "permission_id": "c12604ab3c58489097a1a31631731a19",
+      "role_id": "ad8a1e9508d04e6cb4d858d55e8f5b29",
+      "state": 1,
+      "created_at": "2020-01-01T00:00:00Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "authentication.RolePermission",
+    "fields": {
+      "permission_id": "c3e40ab052cf4d229e5e789161fc0494",
+      "role_id": "ad8a1e9508d04e6cb4d858d55e8f5b29",
+      "state": 1,
+      "created_at": "2020-01-01T00:00:00Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "authentication.RolePermission",
+    "fields": {
+      "permission_id": "c79b3371c3464840ac4286406e55a634",
+      "role_id": "ad8a1e9508d04e6cb4d858d55e8f5b29",
+      "state": 1,
+      "created_at": "2020-01-01T00:00:00Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "authentication.RolePermission",
+    "fields": {
+      "permission_id": "cb72a4cfbb1c44b2900463a2d4987dc3",
+      "role_id": "ad8a1e9508d04e6cb4d858d55e8f5b29",
+      "state": 1,
+      "created_at": "2020-01-01T00:00:00Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "authentication.RolePermission",
+    "fields": {
+      "permission_id": "cba6b9f39ce3426d9c2d30ba80945d6c",
+      "role_id": "ad8a1e9508d04e6cb4d858d55e8f5b29",
+      "state": 1,
+      "created_at": "2020-01-01T00:00:00Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "authentication.RolePermission",
+    "fields": {
+      "permission_id": "e70b51cd843246daa7c75430a42eb3bd",
+      "role_id": "ad8a1e9508d04e6cb4d858d55e8f5b29",
+      "state": 1,
+      "created_at": "2020-01-01T00:00:00Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "authentication.RolePermission",
+    "fields": {
+      "permission_id": "fd66690d6b824010bbe0f4c0633f8fda",
+      "role_id": "ad8a1e9508d04e6cb4d858d55e8f5b29",
+      "state": 1,
+      "created_at": "2020-01-01T00:00:00Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "authentication.RolePermission",
+    "fields": {
+      "permission_id": "fe6bf158cfcc4ac4a290f00d97cb44b7",
+      "role_id": "ad8a1e9508d04e6cb4d858d55e8f5b29",
+      "state": 1,
+      "created_at": "2020-01-01T00:00:00Z",
+      "updated_at": null
+    }
+  },
+    {
+    "model": "authentication.RolePermission",
+    "fields": {
+      "permission_id": "0d53fde85ddb47b2b3648a72a5f76df2",
+      "role_id": "630dffca8ed04cb392a27c442e14b5c0",
+      "state": 1,
+      "created_at": "2020-01-01T00:00:00Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "authentication.RolePermission",
+    "fields": {
+      "permission_id": "0eac133b5b37402ab97cf67ddef96f0c",
+      "role_id": "630dffca8ed04cb392a27c442e14b5c0",
+      "state": 1,
+      "created_at": "2020-01-01T00:00:00Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "authentication.RolePermission",
+    "fields": {
+      "permission_id": "29dff99ae99f4e4cbc3ed881740e8f67",
+      "role_id": "630dffca8ed04cb392a27c442e14b5c0",
+      "state": 1,
+      "created_at": "2020-01-01T00:00:00Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "authentication.RolePermission",
+    "fields": {
+      "permission_id": "43b2f8d318a04f8eabe2ed5247fad889",
+      "role_id": "630dffca8ed04cb392a27c442e14b5c0",
+      "state": 1,
+      "created_at": "2020-01-01T00:00:00Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "authentication.RolePermission",
+    "fields": {
+      "permission_id": "445e72fcb7eb480485804aa987dfb2ac",
+      "role_id": "630dffca8ed04cb392a27c442e14b5c0",
+      "state": 1,
+      "created_at": "2020-01-01T00:00:00Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "authentication.RolePermission",
+    "fields": {
+      "permission_id": "4e36f0724ed04fed8a1946c4156653b3",
+      "role_id": "630dffca8ed04cb392a27c442e14b5c0",
+      "state": 1,
+      "created_at": "2020-01-01T00:00:00Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "authentication.RolePermission",
+    "fields": {
+      "permission_id": "50e707db0db0428c903bd698a057ae47",
+      "role_id": "630dffca8ed04cb392a27c442e14b5c0",
+      "state": 1,
+      "created_at": "2020-01-01T00:00:00Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "authentication.RolePermission",
+    "fields": {
+      "permission_id": "68bcaea0b43e44859be928f03c363737",
+      "role_id": "630dffca8ed04cb392a27c442e14b5c0",
+      "state": 1,
+      "created_at": "2020-01-01T00:00:00Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "authentication.RolePermission",
+    "fields": {
+      "permission_id": "7727d5d27b4f48cc931853585bbf6db2",
+      "role_id": "630dffca8ed04cb392a27c442e14b5c0",
+      "state": 1,
+      "created_at": "2020-01-01T00:00:00Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "authentication.RolePermission",
+    "fields": {
+      "permission_id": "976c28c830304719bdb8dfbd2da7f5c6",
+      "role_id": "630dffca8ed04cb392a27c442e14b5c0",
+      "state": 1,
+      "created_at": "2020-01-01T00:00:00Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "authentication.RolePermission",
+    "fields": {
+      "permission_id": "c12604ab3c58489097a1a31631731a19",
+      "role_id": "630dffca8ed04cb392a27c442e14b5c0",
+      "state": 1,
+      "created_at": "2020-01-01T00:00:00Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "authentication.RolePermission",
+    "fields": {
+      "permission_id": "c3e40ab052cf4d229e5e789161fc0494",
+      "role_id": "630dffca8ed04cb392a27c442e14b5c0",
+      "state": 1,
+      "created_at": "2020-01-01T00:00:00Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "authentication.RolePermission",
+    "fields": {
+      "permission_id": "cba6b9f39ce3426d9c2d30ba80945d6c",
+      "role_id": "630dffca8ed04cb392a27c442e14b5c0",
+      "state": 1,
+      "created_at": "2020-01-01T00:00:00Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "authentication.RolePermission",
+    "fields": {
+      "permission_id": "fe6bf158cfcc4ac4a290f00d97cb44b7",
+      "role_id": "630dffca8ed04cb392a27c442e14b5c0",
+      "state": 1,
+      "created_at": "2020-01-01T00:00:00Z",
+      "updated_at": null
+    }
+  },
+    {
+    "model": "authentication.RolePermission",
+    "fields": {
+      "permission_id": "0d53fde85ddb47b2b3648a72a5f76df2",
+      "role_id": "b49ae3614c2742b89fe0705b17bc9c47",
+      "state": 1,
+      "created_at": "2020-01-01T00:00:00Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "authentication.RolePermission",
+    "fields": {
+      "permission_id": "29dff99ae99f4e4cbc3ed881740e8f67",
+      "role_id": "b49ae3614c2742b89fe0705b17bc9c47",
+      "state": 1,
+      "created_at": "2020-01-01T00:00:00Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "authentication.RolePermission",
+    "fields": {
+      "permission_id": "445e72fcb7eb480485804aa987dfb2ac",
+      "role_id": "b49ae3614c2742b89fe0705b17bc9c47",
+      "state": 1,
+      "created_at": "2020-01-01T00:00:00Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "authentication.RolePermission",
+    "fields": {
+      "permission_id": "4e36f0724ed04fed8a1946c4156653b3",
+      "role_id": "b49ae3614c2742b89fe0705b17bc9c47",
+      "state": 1,
+      "created_at": "2020-01-01T00:00:00Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "authentication.RolePermission",
+    "fields": {
+      "permission_id": "50e707db0db0428c903bd698a057ae47",
+      "role_id": "b49ae3614c2742b89fe0705b17bc9c47",
+      "state": 1,
+      "created_at": "2020-01-01T00:00:00Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "authentication.RolePermission",
+    "fields": {
+      "permission_id": "7727d5d27b4f48cc931853585bbf6db2",
+      "role_id": "b49ae3614c2742b89fe0705b17bc9c47",
+      "state": 1,
+      "created_at": "2020-01-01T00:00:00Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "authentication.RolePermission",
+    "fields": {
+      "permission_id": "976c28c830304719bdb8dfbd2da7f5c6",
+      "role_id": "b49ae3614c2742b89fe0705b17bc9c47",
+      "state": 1,
+      "created_at": "2020-01-01T00:00:00Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "authentication.RolePermission",
+    "fields": {
+      "permission_id": "c12604ab3c58489097a1a31631731a19",
+      "role_id": "b49ae3614c2742b89fe0705b17bc9c47",
+      "state": 1,
+      "created_at": "2020-01-01T00:00:00Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "authentication.RolePermission",
+    "fields": {
+      "permission_id": "c3e40ab052cf4d229e5e789161fc0494",
+      "role_id": "b49ae3614c2742b89fe0705b17bc9c47",
+      "state": 1,
+      "created_at": "2020-01-01T00:00:00Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "authentication.RolePermission",
+    "fields": {
+      "permission_id": "fe6bf158cfcc4ac4a290f00d97cb44b7",
+      "role_id": "b49ae3614c2742b89fe0705b17bc9c47",
+      "state": 1,
+      "created_at": "2020-01-01T00:00:00Z",
+      "updated_at": null
+    }
+  }
+]

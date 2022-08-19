@@ -1,0 +1,29 @@
+[
+       {
+        "model": "authentication.role",
+        "fields": {
+          "description":"admin",
+          "state": 1,
+          "created_at": "2020-01-01T00:00:00Z",
+          "updated_at": null
+        }
+    },
+    {
+        "model": "authentication.role",
+        "fields": {
+          "description":"boss",
+          "state": 1,
+          "created_at": "2020-01-01T00:00:00Z",
+          "updated_at": null
+        }
+    },
+    {
+       "model": "authentication.role",
+        "fields": {
+          "description":"user",
+          "state": 1,
+          "created_at": "2020-01-01T00:00:00Z",
+          "updated_at": null
+        }
+    }
+]
